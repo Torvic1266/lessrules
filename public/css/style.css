@@ -1,66 +1,61 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 body {
-    background-image: url(/images/modelos\ busos.webp);
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
-    }
+  background-image: url(/images/modelos\ busos.webp);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
 
-    header {
-        background: #374142; opacity: 0.6;
-    
-        width: 100%;
-        display:flexbox;
-        font-size: 20px;
-        
+header {
+  background: #374142;
+  opacity: 0.6;
+
+  width: 100%;
+  display: flexbox;
+  font-size: 20px;
 }
 
 .menu {
-    width: 1000px;
-    margin: 0 auto;
-    text-align:center;
-    }
-    
-    
-img {
-    width: 120px;
-    height: 60px;
-    float: left;
-    padding: 8px;
-    color: black;
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
 }
- 
+
+img {
+  width: 120px;
+  height: 60px;
+  float: left;
+  padding: 8px;
+  color: black;
+}
+
 nav ul li {
-    list-style: none;
-    margin-left: 75px;
-    padding: 25px 0;
-    float: left;
+  list-style: none;
+  margin-left: 75px;
+  padding: 25px 0;
+  float: left;
 }
 nav ul li a {
-    text-decoration: none;
-    color: rgba(163, 196, 235, 0.993);
-    font-weight: bold;
-    
+  text-decoration: none;
+  color: rgba(163, 196, 235, 0.993);
+  font-weight: bold;
 }
-   
-.menu li a:hover{
-    background: #cbe3e7;
+
+.menu li a:hover {
+  background: #cbe3e7;
 }
 h1 {
-    color:rgb(243, 235, 235);
-     
-    background-color: orange;
-    opacity: 0.9;}
-    body {
-        background-size: cover;
+  color: rgb(243, 235, 235);
 
-    }
-    
-    
-     .descuento {
-        margin-top: 0px;
-     }
-    
+  background-color: orange;
+  opacity: 0.9;
+}
+body {
+  background-size: cover;
+}
+
+.descuento {
+  margin-top: 0px;
+}
