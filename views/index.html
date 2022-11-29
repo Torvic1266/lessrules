@@ -1,42 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nuestra pagina</title>
-    <link rel="stylesheet" href="/css/style.css" />
-    <script
-      src="https://kit.fontawesome.com/1b42c56bc0.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
-  <body>
-    <header>
-      <div class="menu">
-        <img src="/images/lessrules.jpeg" alt="" />
-        <nav>
-          <ul class="letra">
-            <li>
-                <i class="fa-solid fa-house"></i>
-                <a href="#">Inicio</a>
-            </li>
-            <li>
-              <i class="fa-solid fa-person-circle-question"></i>
-              <a href="#">Estilos</a>
-            </li>
-            <li>
-              <i class="fa-brands fa-odnoklassniki"></i>
-              <a href="#">Categorias</a>
-            </li>
-          </ul>
-        </nav>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nuestra pagina</title>
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+</head>
+
+<body>
+  <header>
+    <div class="menu">
+      <div class="logo">
+        <img style="height: 80px;" src="/images/lessrules.jpeg" alt="" />
       </div>
-    </header>
-    <div class="descuento">
-      <div>
-        <h1>Black Week! Nuestro catálogo con el 40% Dcto</h1>
-      </div>
+      <nav>
+        <ul class="letra">
+          <li>
+            <i class="fa-solid fa-house"></i>
+            <a href="#">Inicio</a>
+          </li>
+          <li>
+            <i class="fa-solid fa-person-circle-question"></i>
+            <a href="#">Estilos</a>
+          </li>
+          <li>
+            <i class="fa-brands fa-odnoklassniki"></i>
+            <a href="#">Categorias</a>
+          </li>
+        </ul>
+      </nav>
     </div>
-  </body>
+    <!-- Slider main container -->
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <div class="descuento">
+            <div class="black-friday">
+              <h1>Black Week! Nuestro catálogo con el 40% Dcto</h1>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="swiper-slide">
+          <div class="descuento">
+            <div class="navidad">
+              <h1>Ofertas</h1>
+            </div>
+          </div>
+        </div> -->
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+
+      <!-- If we need scrollbar -->
+      <div class="swiper-scrollbar"></div>
+    </div>
+  </header>
+  <section>
+    <article>
+      
+    </article>
+  </section>
+  <script src="https://kit.fontawesome.com/1b42c56bc0.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper('.swiper', {
+      // Optional parameters
+      direction: 'horizontal',
+      loop: true,
+
+      // If we need pagination
+      pagination: {
+        el: '.swiper-pagination',
+      },
+
+      // Navigation arrows
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+
+      // And if we need scrollbar
+      scrollbar: {
+        el: '.swiper-scrollbar',
+      },
+    });
+  </script>
+</body>
+
 </html>
