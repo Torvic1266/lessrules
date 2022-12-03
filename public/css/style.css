@@ -4,6 +4,8 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     box-sizing: border-box;
 }
+
+
 .fondo{
     width: 100%;
     height: 100vh;
@@ -12,38 +14,57 @@
     background-position:top;
     
 }
+.navbar {
+display: inline-flex;
+justify-content: space-between;
+height: 100px;
+align-items: center;
+min-width: 100%;
+padding: 0 20px;
+background-color: rgba(20, 20, 20, 0.35);
 
+}
+.navbar ul {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
 .navbar ul li {
     list-style:none;
     display:inline-table;
-    margin: 0 80px;
-    margin-top: 0px;
-    padding-top: 20%;
-    
-    
+    margin: auto;
 }
+
 .navbar ul li a {
     text-decoration:none;
-    color: rgb(9, 238, 238);
+    color: rgb(255, 255, 255);
     text-transform:uppercase;
     margin-top: 0px;
     margin-left: 0px;
+    font-weight: bold;
 }
-img{
+.logo {
     width: 150px;
     margin-top: 20px;
     margin-left: 50px;
+    margin: auto 0;
 }
  body marquee {
-    color: rgb(21, 11, 31);
+    color: rgb(250, 8, 8);
+    font-weight: bolder;
     font-size: 24px;
-    font-family: 'Times New Roman', Times, serif;
-    background-color: chartreuse;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+    padding:5px 0;
+    
  }
 
 .text {
     padding: 40px;
-    background: #eee;
+    
 
 }
 .text h3 {
@@ -54,8 +75,7 @@ img{
 }
 .banner-container {
     display: flex;
-    align-items: center;
-    justify-content: center;
+  
 }
  .banner-container .banner {
     background:linear-gradient(-55deg, #ff76 29%, #ff7644 29.1%, #ff4321 68%, #ff3212 68.1%);
@@ -67,16 +87,21 @@ img{
     flex-wrap: wrap;
     box-shadow: 0 5px 5px #0005;
     overflow: hidden;
+    width: 100%;
 
  }
- .banner-container .banner .shoe {
+ .banner-container .banner .banner-imagen {
     flex: 1 1 250px;
     padding: 50px;
     text-align: center;
+    
  }
 
- .banner-container .banner .shoe img {
-    width: 90%;
+ .banner-container .banner .banner-imagen img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center center;
  }
  .banner-container .banner .content {
     flex: 1 1 250px;
@@ -86,7 +111,7 @@ img{
  }
  .banner-container .banner .content span {
     color: #eee;
-    font-size: 25px;
+    font-size: 40px;
  }
  .banner-container .banner .content h3 {
     color: #fff;
@@ -103,22 +128,16 @@ img{
     width: 150px;
     line-height: 40px;
     background: #fff;
-    color: aqua;
+    color: rgb(0, 12, 12);
     margin: 5px auto;
     text-decoration: none;
  }
- .banner-container .banner .hombre {
-    position: relative;
-    bottom: -33px;
-    padding: 10px;
-    flex: 1 1 250px;
-}
-.banner-container .banner .hombre img {
-    width: 70%;
+ 
+    
 
-}
+
 @media (max-width:768px) {
-    .banner-container .banner .hombre {
+    .banner-container .banner  {
         display:none;
     }
 }
