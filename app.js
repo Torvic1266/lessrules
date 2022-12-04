@@ -15,4 +15,8 @@ app.listen(3000,() => {
 app.use("/productos", rutasProductos);
 app.use("/", rutasMain);
 
+app.get("/", (req,res) => {
+    res.sendFile(path.resolve(__dirname, "./views/index.html"));
+    
+});
  

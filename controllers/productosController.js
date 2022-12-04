@@ -13,7 +13,7 @@ let productosController = {
             res.send("Bienvenidos a los comentarios del producto " + 
         req.params.idProducto + " y estas enfocado en el comentario " + req.params.idComentario);
          }
-        }
+        },
 };
 
 module.exports= productosController;
