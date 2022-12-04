@@ -4,6 +4,7 @@ let rutasMain =require("./routes/main");
 const { dirname } = require("path");
 const path =require("path");
 const app = express();
+app.set("view engine", "ejs");
 
 const publicFolderPath = path.resolve(__dirname, "./public");
 app.use( express.static(publicFolderPath));
