@@ -10,3 +10,4 @@ router.get("/:idProducto", productosController.detalle);
       module.exports = router;
 
 router.get("/productos" , mainController.productos);
+router.get("/list" , mainController.list);

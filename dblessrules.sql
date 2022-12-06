@@ -1,0 +1,11 @@
+idproductos,nombre,imagen,precio,descripcion
+1,"buso Dama","chompa dama.jpg","$ 70.000","100% algodon, color azul manga larga tipo siluet"
+2,"chompa azul y blanca","chompa azul y blanca.jpg","$ 80.000","ajustable y color variado tipo siluet"
+3,"chompa azul ","chompa azul.jpg","$ 65.000","100% algodon, ajustable mangas largas, con cordón"
+4,"chompa blanca","chompa blanca.jpg","$ 80.000","100 %, manga larga blanca con cierre ajustable"
+5,"chompa gris","chompa gris.webp","$ 85.000","100% algodon, con estampado y dos colores"
+6,"chompa Morada","chompa morada.jpg","$ 65.000","ajustable, manga larga y capota"
+7,"Chompa Naranja","chompa naranjada.jpg","$ 70.000","100% algodon, ajustable con cordón"
+8,"Chompa Negra","chompa negra medellin.webp","$ 65.000","Sencilla con cordón y capota"
+9,"Chompa Rosada","chompa rosada","$ 70.000","con cordón y capota "
+10,"Chompa Vinotinto","chompa vinotinto.jpg","$ 70.000","100% algodon ajustable, manga larga y capota"
