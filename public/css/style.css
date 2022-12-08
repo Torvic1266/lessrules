@@ -133,6 +133,19 @@ background-color: rgba(20, 20, 20, 0.35);
     text-decoration: none;
  }
  
+ .boton-comprar {
+    display:block;
+    height: 40px;
+    width: 150px;
+    line-height: 40px;
+    color: rgb(20, 238, 238);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    margin:5px auto;
+    text-decoration: none;
+    
+    
+}
     
 
 

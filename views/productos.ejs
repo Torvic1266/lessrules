@@ -9,6 +9,7 @@
   </head>
   <body>
     
+    <div class="card-container">
         <% for(var i=0; i<productos.length; i++) {%>
           
            <img
@@ -20,8 +21,10 @@
              <h3 class="card-title"><%= productos[i].nombre %></h3>
              <p class="card-precio"><%= productos[i].precio %></p>
              <p class="card-descripcion"><%= productos[i].descripcion %></p>
+             <a href="#" >COMPRAR</a>
            </article>
         <% } %>
+      </div>
         
     <!-- <h1>Serás parte del cambio</h1>
     <img class="card-img" src="/images/chompa dama.jpg/<%= productos.imagen %>" alt="">

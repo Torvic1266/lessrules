@@ -1,9 +1,64 @@
- h1 {
-    background-image: url(/images/color\ abstracto.jpg);
-    border-radius: 20px;
-    text-align: center;
-    padding-bottom: 10px;
-    margin: 40px;
+ body { 
+    background-image: url(/images/fondo\ degradado.jpg);
+    width: 100%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-} 
+ }
 
+.card-body {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.card-img {
+    margin-bottom: 20px;
+    width: 30vh;
+    height: 50vh;
+    object-fit: cover;
+    
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.card-body {
+    color: rgb(220, 241, 241);
+    border: 2px solid rgb(29, 29, 29);
+    border-radius: 15px;
+    display: flex;
+    flex-direction:column;
+    padding: 20px;
+    width: 40vh;
+    align-items: center;
+    margin: auto;
+    margin-block-end: 20px;
+    
+}
+
+.card-title {
+    margin-bottom: 20px;
+    color: rgb(227, 74, 241);
+}
+
+.card-precio {
+    margin-bottom: 20px;
+    color: rgb(227, 74, 241);
+}
+
+.card-descripcion {
+    margin-bottom: 20px;
+    color: rgb(117, 24, 224);
+    height: 60px;
+}
+
+.boton-comprar {
+    display:block;
+    height: 40px;
+    width: 150px;
+    line-height: 40px;
+    background: #fff;
+    color: rgb(0, 12, 12);
+    margin: 5px auto;
+    text-decoration: none;
+}
