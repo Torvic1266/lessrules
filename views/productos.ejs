@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>productos</title>
-    <link rel="stylesheet" href="/css/productos.css" />
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>lessrules</title>
+      <link rel="stylesheet" href="/css/productos.css" />
+    </head>
   </head>
   <body>
-    
+    <%- include('./partials/header'); %>
     <div class="card-container">
         <% for(var i=0; i<productos.length; i++) {%>
           
@@ -21,13 +23,11 @@
              <h3 class="card-title"><%= productos[i].nombre %></h3>
              <p class="card-precio"><%= productos[i].precio %></p>
              <p class="card-descripcion"><%= productos[i].descripcion %></p>
-             <a href="#" >COMPRAR</a>
+             <a href="#" >COMPRAR</a> 
            </article>
         <% } %>
       </div>
-        
-    <!-- <h1>Serás parte del cambio</h1>
-    <img class="card-img" src="/images/chompa dama.jpg/<%= productos.imagen %>" alt="">
-    <img src="/images/chompa morada.jpg" alt=""> -->
-  </body>
+      <%- include('./partials/footer'); %>
+        </body>
+
 </html>
